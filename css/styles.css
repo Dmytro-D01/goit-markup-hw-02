@@ -120,6 +120,7 @@ ul, ol, a {
         line-height: 1.2;
         letter-spacing: 0.02em;
         color: #2e2f42;
+        text-transform: capitalize
 }
 
 .features-text {
@@ -143,7 +144,7 @@ ul, ol, a {
 }
 .team-list {}
 
-.team-item {}
+.team-item { background-color: #FFFFFF; }
 
 .team-name {
         font-weight: 500;
@@ -181,7 +182,7 @@ ul, ol, a {
 
 .portfolio-list { background-color: #FFFFFF; }
 
-ul.portfolio-list > li.portfolio-item {background-color: #FFFFFF;}
+.portfolio-item {background-color: #FFFFFF;}
 
 .portfolio-title {
                 font-weight: 500;
