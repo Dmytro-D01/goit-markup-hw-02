@@ -1,5 +1,7 @@
 body {
-font-family: "Roboto", sans-serif; color: #434455; background-color: "#FFFFFF";
+font-family: "Roboto", sans-serif; 
+color: #434455; 
+background-color: #FFFFFF;
 }
 
 ul, ol, a {
@@ -12,18 +14,24 @@ ul, ol, a {
 
 .header-nav {}
 
-.header-logo {
-    font-family: "Raleway", sans-serif;
+.header-logo {      
+        font-family: "Raleway", sans-serif;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 1.16667;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color: #4d5ae5;
+}
+
+
+.header-logo .header-logo-span {
         font-weight: 700;
         font-size: 18px;
         line-height: 1.16667;
         letter-spacing: 0.03em;
         text-transform: uppercase;
         color: #2e2f42;
-}
-
-.header-logo .header-logo-span {
-    color: #4d5ae5;
 }
 
 .class-menu {}
@@ -46,7 +54,9 @@ ul, ol, a {
         color: #404bbf;
 }
 
-.header-contacts {}
+.header-contacts {
+        font-style: normal;
+}
 
 .header-contacts-list {}
 
@@ -74,10 +84,11 @@ ul, ol, a {
 .hero-title {
         font-weight: 700;
         font-size: 56px;
-        line-height: 1.07143;
+        line-height: 1.07;
         letter-spacing: 0.02em;
         text-align: center;
         color: #fff;
+        
 }
 
 .hero-button {
@@ -91,6 +102,9 @@ ul, ol, a {
 
 }
 
+.hero-button:hover, .hero-button:focus {
+        background-color: #404BBF;
+}
 /* features */
 .features {}
 
@@ -159,6 +173,8 @@ ul, ol, a {
                 letter-spacing: 0.02em;
                 text-align: center;
                 color: #2e2f42;
+                text-transform: capitalize;
+                text-align: center;
 }
 
 .portfolio-list {}
@@ -171,6 +187,7 @@ ul, ol, a {
                 line-height: 1.2;
                 letter-spacing: 0.02em;
                 color: #2e2f42;
+                text-transform: capitalize;
 }
 
 .portfolio-text {
@@ -186,7 +203,7 @@ ul, ol, a {
         background-color: #2e2f42;
 }
 
-.footer-web {
+.footer-logo {
                 font-weight: 700;
                 font-size: 18px;
                 line-height: 1.16667;
@@ -195,7 +212,7 @@ ul, ol, a {
                 color: #4d5ae5;
 }
 
-.footer-studio {
+.footer-logo-text {
                 font-weight: 700;
                 font-size: 18px;
                 line-height: 1.16667;
