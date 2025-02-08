@@ -167,18 +167,19 @@ ul, ol, a {
 .portfolio { background-color: #FFFFFF;}
 
 .portfolio-section { 
+                text-transform: capitalize;
                 font-weight: 700;
                 font-size: 36px;
                 line-height: 1.11;
                 letter-spacing: 0.02em;
                 text-align: center;
                 color: #2e2f42;
-                text-transform: capitalize;
+                
                 
                 
 }
 
-.portfolio-list {}
+.portfolio-list { background-color: #FFFFFF; }
 
 ul.portfolio-list > li.portfolio-item {background-color: #FFFFFF;}
 
