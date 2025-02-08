@@ -180,7 +180,7 @@ ul, ol, a {
 
 .portfolio-list {}
 
-.portfolio-item {background-color: #FFFFFF;}
+ul.portfolio-list > li.portfolio-item {background-color: #FFFFFF;}
 
 .portfolio-title {
                 font-weight: 500;
